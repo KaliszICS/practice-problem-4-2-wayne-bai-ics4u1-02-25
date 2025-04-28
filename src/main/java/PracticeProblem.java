@@ -1,7 +1,8 @@
 public class PracticeProblem {
 
 	public static void main(String args[]) {
-
+		Car newCar = new Car("Hyundai", "Elantra", 2007, 4499.99);
+		System.out.println(newCar.getMake());
 	}
 
 	public static void q1() {
